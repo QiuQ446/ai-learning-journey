@@ -1,0 +1,8 @@
+# 我的本地练习文件夹，不需要上传
+leetcode/
+practice/
+
+# Python 缓存
+
+__pycache__/
+*.pyc
