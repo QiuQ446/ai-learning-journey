@@ -37,3 +37,6 @@ nums = [6,7,4,3,2,5,6,8,7,3,5,6]
 
 lomh_nums = [num for num in nums if num > 6]
 print(lomh_nums)
+
+for num in nums[:3]:
+    print(num)
