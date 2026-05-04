@@ -67,4 +67,17 @@ for name, info in person.items():
     print(f"姓名: {name}")
     print(f"年龄: {info['age']}")
     print(f"性别: {info['gender']}")
-    print(f"爱好: {(info['hobbies'])}")
+    print(f"爱好: {info['hobbies']}")
+
+
+
+
+
+
+
+
+
+
+
+
+
