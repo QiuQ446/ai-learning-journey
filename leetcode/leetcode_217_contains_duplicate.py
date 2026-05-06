@@ -25,7 +25,7 @@
 所有元素都不同。
 """
 
-
+"""
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         seen = {}
@@ -34,3 +34,5 @@ class Solution:
                 return True
             seen[num] = True      # 记下这个元素
         return False
+
+"""

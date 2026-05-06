@@ -17,7 +17,7 @@
 """
 
 ####         常规解法：遍历数组，找到第一个大于等于目标值的位置，返回索引  时间复杂度为 O(n)。
-
+"""
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         for i, num in enumerate(nums):
@@ -25,7 +25,7 @@ class Solution:
                 return i
         return len(nums)
     
-
+"""
 """
 
 基本用法：enumerate(iterable, start=0)，其中 iterable 是需要遍历的对象，start 是索引的起始值，默认为 0。 
@@ -42,7 +42,7 @@ for index, fruit in enumerate(fruits):
 
 
 ####        二分查找：在有序数组中，使用二分查找算法来找到目标值的位置或插入位置。时间复杂度为 O(log n)。
-
+"""
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums) - 1
@@ -55,3 +55,5 @@ class Solution:
             else:
                 right = mid - 1
         return left   # 退出循环时 left 就是插入位置
+
+"""
