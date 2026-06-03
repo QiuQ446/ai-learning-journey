@@ -6,3 +6,9 @@ learning_words/__pycache__/
 # 全局忽略 Python 缓存
 __pycache__/
 *.pyc
+
+# 运行时生成的 JSON 数据文件
+Student_Scores.json
+books.json
+practice/Student_Scores.json
+practice/books.json
